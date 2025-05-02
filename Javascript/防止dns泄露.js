@@ -8,7 +8,7 @@ function main(config) {
     interval: 86400,
     behavior: "domain",
     format: "text",
-    url: "https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/refs/heads/master/Mihomo/prevent_dns_leak_domain.list"
+    url: "https://testingcf.jsdelivr.net/gh/QCEnjoyLL/Mihomo-Scripts@master/Mihomo/prevent_dns_leak_domain.list"
   };
   config['rule-providers']['prevent_dns_leak'] = newProvider;
 
