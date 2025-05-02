@@ -29,10 +29,10 @@ DOMAIN,image-cdn.gay-torrents.net
 
 #steam直连下载
 DOMAIN-SUFFIX,steamcontent.com
-DOMAIN,*.steamcontent.com
+DOMAIN-KEYWORD,steamcontent.com
 DOMAIN,fastly.cdn.steampipe.steamcontent.com
 DOMAIN,cdn.fastly.steamstatic.com
-DOMAIN,*.fastly.steamstatic.com
+DOMAIN-KEYWORD,fastly.steamstatic.com
 DOMAIN-SUFFIX,fastly.steamstatic.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,cm.steampowered.com
