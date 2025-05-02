@@ -555,14 +555,14 @@ rule-providers:
     format: text
     type: http
   PersonalDirect:
-    url: https://testingcf.jsdelivr.net/gh/QCEnjoyLL/Mihomo-Scripts@master/Mihomo/Ruleset/PersonalDirect.list
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalDirect.list
     path: ./ruleset/PersonalDirect.list
     behavior: classical
     interval: 86400
     format: text
     type: http
   PersonalProxy:
-    url: https://testingcf.jsdelivr.net/gh/QCEnjoyLL/Mihomo-Scripts@master/Mihomo/Ruleset/PersonalProxy.list
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalProxy.list
     path: ./ruleset/PersonalProxy.list
     behavior: classical
     interval: 86400
