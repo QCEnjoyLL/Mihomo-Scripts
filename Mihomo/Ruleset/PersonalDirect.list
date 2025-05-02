@@ -26,6 +26,7 @@ DOMAIN-KEYWORD,gay-torrents.org
 
 #域名匹配
 DOMAIN,image-cdn.gay-torrents.net
+DOMAIN,ipw.cn
 
 #steam直连下载
 DOMAIN-SUFFIX,steamcontent.com
