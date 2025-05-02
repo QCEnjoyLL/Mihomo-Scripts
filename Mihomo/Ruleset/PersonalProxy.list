@@ -4,3 +4,6 @@ DOMAIN-SUFFIX,xunleix.com
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
 DOMAIN-KEYWORD,xunleix
+
+#域名匹配
+DOMAIN,xluser-ssl.xunleix.com
