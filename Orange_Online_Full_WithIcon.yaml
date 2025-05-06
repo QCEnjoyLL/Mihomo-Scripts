@@ -4,6 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
+      - 全球通
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -28,6 +29,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
+      - 全球通
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -42,6 +44,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
+      - 全球通
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -56,6 +59,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
+      - 全球通
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -70,6 +74,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
+      - 全球通
       - 奈飞节点
       - 狮城节点
       - 香港节点
@@ -84,6 +89,7 @@ proxy-groups:
     type: select
     proxies:
       - 台湾节点
+      - 全球通
       - 节点选择
       - 手动切换
       - DIRECT
@@ -92,6 +98,7 @@ proxy-groups:
     type: select
     proxies:
       - 全球直连
+      - 全球通
       - 台湾节点
       - 香港节点
   - name: 国外媒体
@@ -100,6 +107,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
+      - 全球通
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -113,6 +121,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 全球通
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -124,6 +133,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
+      - 全球通
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -137,6 +147,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
+      - 全球通
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -150,6 +161,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
+      - 全球通
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -163,6 +175,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - DIRECT
+      - 全球通
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -176,6 +189,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
+      - 全球通
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -189,6 +203,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
+      - 全球通
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -226,6 +241,7 @@ proxy-groups:
       - 自动选择
       - 手动切换
       - 节点选择
+      - 全球通
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -252,6 +268,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - DIRECT
+      - 全球通
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -301,6 +318,13 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 全球通
+    icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
+    include-all: true
+    filter: (?i)全球通
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
@@ -314,6 +338,7 @@ proxy-groups:
       - 节点选择
       - 手动切换
       - 自动选择
+      - 全球通
       - 电报消息
       - OpenAi
       - 油管视频
