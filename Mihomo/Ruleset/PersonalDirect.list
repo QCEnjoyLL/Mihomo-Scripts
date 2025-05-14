@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,virmach.com
+DOMAIN-SUFFIX,torrentleech.cc
 
 #关键词匹配
 DOMAIN-KEYWORD,gay-torrents
@@ -23,10 +24,12 @@ DOMAIN-KEYWORD,115
 DOMAIN-KEYWORD,tracker.m-team.cc
 DOMAIN-KEYWORD,virmach.com
 DOMAIN-KEYWORD,gay-torrents.org
+DOMAIN-KEYWORD,torrentleech.cc
 
 #域名匹配
 DOMAIN,image-cdn.gay-torrents.net
 DOMAIN,ipw.cn
+DOMAIN,www.torrentleech.cc
 
 #steam直连下载
 DOMAIN-SUFFIX,steamcontent.com
