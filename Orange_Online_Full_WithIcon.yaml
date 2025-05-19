@@ -6,6 +6,7 @@ proxy-groups:
       - 自动选择
       - 全球通
       - CF自建
+      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -32,6 +33,7 @@ proxy-groups:
       - 自动选择
       - 全球通
       - CF自建
+      - L站分享
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -48,6 +50,7 @@ proxy-groups:
       - 自动选择
       - 全球通
       - CF自建
+      - L站分享
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -64,6 +67,7 @@ proxy-groups:
       - 自动选择
       - 全球通
       - CF自建
+      - L站分享
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -80,6 +84,7 @@ proxy-groups:
       - 自动选择
       - 全球通
       - CF自建
+      - L站分享
       - 奈飞节点
       - 狮城节点
       - 香港节点
@@ -96,6 +101,7 @@ proxy-groups:
       - 台湾节点
       - 全球通
       - CF自建
+      - L站分享
       - 节点选择
       - 手动切换
       - DIRECT
@@ -106,6 +112,7 @@ proxy-groups:
       - 全球直连
       - 全球通
       - CF自建
+      - L站分享
       - 台湾节点
       - 香港节点
   - name: 国外媒体
@@ -116,6 +123,7 @@ proxy-groups:
       - 自动选择
       - 全球通
       - CF自建
+      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -131,6 +139,7 @@ proxy-groups:
       - DIRECT
       - 全球通
       - CF自建
+      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -144,6 +153,7 @@ proxy-groups:
       - 节点选择
       - 全球通
       - CF自建
+      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -159,6 +169,7 @@ proxy-groups:
       - 节点选择
       - 全球通
       - CF自建
+      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -174,6 +185,7 @@ proxy-groups:
       - 节点选择
       - 全球通
       - CF自建
+      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -189,6 +201,7 @@ proxy-groups:
       - DIRECT
       - 全球通
       - CF自建
+      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -204,6 +217,7 @@ proxy-groups:
       - 节点选择
       - 全球通
       - CF自建
+      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -219,6 +233,7 @@ proxy-groups:
       - 节点选择
       - 全球通
       - CF自建
+      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -258,6 +273,7 @@ proxy-groups:
       - 节点选择
       - 全球通
       - CF自建
+      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -286,6 +302,7 @@ proxy-groups:
       - DIRECT
       - 全球通
       - CF自建
+      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -349,6 +366,13 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: L站分享
+    icon: https://linux.do/user_avatar/linux.do/gxiao7800/48/681654_2.png
+    include-all: true
+    filter: (?i)L站
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
@@ -364,6 +388,7 @@ proxy-groups:
       - 自动选择
       - 全球通
       - CF自建
+      - L站分享
       - 电报消息
       - OpenAi
       - 油管视频
