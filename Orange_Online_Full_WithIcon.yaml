@@ -5,6 +5,7 @@ proxy-groups:
     proxies:
       - 自动选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 香港节点
@@ -25,6 +26,34 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
+  - name: 全球通
+    icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
+    include-all: true
+    filter: (?i)全球通
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 免费机场
+    icon: https://img.nloln.de/v2/QXIzd1p.png
+    include-all: true
+    filter: (?i)免费机场
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: CF自建
+    icon: https://img4.nloln.cn/file/1733468555614_cf.ico
+    include-all: true
+    filter: (?i)橙子自建|💦
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: L站分享
+    icon: https://linux.do/user_avatar/linux.do/gxiao7800/48/681654_2.png
+    include-all: true
+    filter: (?i)L站
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 电报消息
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
@@ -32,6 +61,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 狮城节点
@@ -49,6 +79,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 狮城节点
@@ -66,6 +97,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 狮城节点
@@ -83,6 +115,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 奈飞节点
@@ -100,6 +133,7 @@ proxy-groups:
     proxies:
       - 台湾节点
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 节点选择
@@ -111,6 +145,7 @@ proxy-groups:
     proxies:
       - 全球直连
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 台湾节点
@@ -122,6 +157,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 香港节点
@@ -138,6 +174,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 香港节点
@@ -152,6 +189,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 美国节点
@@ -168,6 +206,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 美国节点
@@ -184,6 +223,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 美国节点
@@ -200,6 +240,7 @@ proxy-groups:
       - 节点选择
       - DIRECT
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 美国节点
@@ -216,6 +257,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 美国节点
@@ -232,6 +274,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 美国节点
@@ -272,6 +315,7 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 美国节点
@@ -301,6 +345,7 @@ proxy-groups:
       - 自动选择
       - DIRECT
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 香港节点
@@ -352,27 +397,6 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 全球通
-    icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
-    include-all: true
-    filter: (?i)全球通
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: CF自建
-    icon: https://img4.nloln.cn/file/1733468555614_cf.ico
-    include-all: true
-    filter: (?i)橙子自建|💦
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: L站分享
-    icon: https://linux.do/user_avatar/linux.do/gxiao7800/48/681654_2.png
-    include-all: true
-    filter: (?i)L站
-    type: url-test
-    interval: 300
-    tolerance: 50
   - name: 奈飞节点
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     include-all: true
@@ -387,6 +411,7 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 全球通
+      - 免费机场
       - CF自建
       - L站分享
       - 电报消息
