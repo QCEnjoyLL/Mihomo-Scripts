@@ -48,7 +48,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: L站分享
-    icon: https://linux.do/user_avatar/linux.do/gxiao7800/48/681654_2.png
+    icon: https://img.nloln.de/v2/EtU1ssS.png
     include-all: true
     filter: (?i)L站
     type: url-test
