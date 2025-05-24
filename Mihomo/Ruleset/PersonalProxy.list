@@ -1,12 +1,9 @@
 #前缀匹配
 DOMAIN-SUFFIX,xunleix.com
-DOMAIN-SUFFIX,linux.do
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
 DOMAIN-KEYWORD,xunleix
-DOMAIN-KEYWORD,linux.do
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
-DOMAIN,linux.do
