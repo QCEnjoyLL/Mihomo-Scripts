@@ -671,6 +671,8 @@ rule-providers:
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
+  - "RULE-SET,PersonalDirect,自用直连"
+  - "RULE-SET,PersonalProxy,自用代理"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
@@ -700,7 +702,5 @@ rules:
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
-  - "RULE-SET,PersonalDirect,自用直连"
-  - "RULE-SET,PersonalProxy,自用代理"
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
