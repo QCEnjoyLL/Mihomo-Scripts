@@ -328,6 +328,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Ban18+:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/18+porn.list
+    path: ./ruleset/Ban18+.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   UnBan:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
     path: ./ruleset/UnBan.list
@@ -527,13 +534,6 @@ rule-providers:
   Download:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
     path: ./ruleset/Download.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  Ban18+:
-    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/18+porn.list
-    path: ./ruleset/Ban18+.list
     behavior: classical
     interval: 86400
     format: text

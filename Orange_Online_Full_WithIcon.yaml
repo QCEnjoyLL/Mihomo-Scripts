@@ -451,6 +451,20 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  PersonalDirect:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalDirect.list
+    path: ./ruleset/PersonalDirect.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  PersonalProxy:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalProxy.list
+    path: ./ruleset/PersonalProxy.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   UnBan:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
     path: ./ruleset/UnBan.list
@@ -650,20 +664,6 @@ rule-providers:
   Download:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Download.list
     path: ./ruleset/Download.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  PersonalDirect:
-    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalDirect.list
-    path: ./ruleset/PersonalDirect.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  PersonalProxy:
-    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalProxy.list
-    path: ./ruleset/PersonalProxy.list
     behavior: classical
     interval: 86400
     format: text
