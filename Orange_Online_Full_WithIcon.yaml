@@ -43,7 +43,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name LinuxDo优选
+  - name: LinuxDo优选
     icon: https://img.nloln.de/v2/k30YstZ.jpeg
     include-all: true
     filter: (?i)LinuxDo
