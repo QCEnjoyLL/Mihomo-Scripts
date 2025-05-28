@@ -5,6 +5,9 @@ proxy-groups:
     proxies:
       - 自动选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -30,6 +33,27 @@ proxy-groups:
     icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
     include-all: true
     filter: (?i)全球通
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 自建优选
+    icon: https://img.nloln.de/v2/YzX3R1V.jpeg
+    include-all: true
+    filter: (?i)自建优选
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name LinuxDo优选
+    icon: https://img.nloln.de/v2/k30YstZ.jpeg
+    include-all: true
+    filter: (?i)LinuxDo
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: 公开订阅优选
+    icon: https://img.nloln.de/v2/RLJHkMT.jpeg
+    include-all: true
+    filter: (?i)公开订阅
     type: url-test
     interval: 300
     tolerance: 50
@@ -61,6 +85,9 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -79,6 +106,9 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -97,6 +127,9 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -115,6 +148,9 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -133,6 +169,9 @@ proxy-groups:
     proxies:
       - 台湾节点
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -145,6 +184,9 @@ proxy-groups:
     proxies:
       - 全球直连
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -157,6 +199,9 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -174,6 +219,9 @@ proxy-groups:
     proxies:
       - DIRECT
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -189,6 +237,9 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -206,6 +257,9 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -223,6 +277,9 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -240,6 +297,9 @@ proxy-groups:
       - 节点选择
       - DIRECT
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -257,6 +317,9 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -274,6 +337,9 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -315,6 +381,9 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -345,6 +414,9 @@ proxy-groups:
       - 自动选择
       - DIRECT
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
@@ -411,6 +483,9 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 全球通
+      - 自建优选
+      - LinuxDo优选
+      - 公开订阅优选
       - 免费机场
       - 自建节点
       - L站分享
