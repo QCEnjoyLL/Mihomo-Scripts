@@ -4,14 +4,7 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -30,59 +23,10 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
-  - name: 全球通
-    icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
-    include-all: true
-    filter: (?i)全球通
-    type: url-test
-    interval: 300
-    tolerance: 50
   - name: 弟弟
     icon: https://img.nloln.de/v2/KInGYFD.png
     include-all: true
     filter: (?i)弟弟
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: 自建优选
-    icon: https://img.nloln.de/v2/YzX3R1V.jpeg
-    include-all: true
-    filter: (?i)自建优选
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: LinuxDo优选
-    icon: https://img.nloln.de/v2/k30YstZ.jpeg
-    include-all: true
-    filter: (?i)LinuxDo
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: 公开订阅优选
-    icon: https://img.nloln.de/v2/RLJHkMT.jpeg
-    include-all: true
-    filter: (?i)公开订阅
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: 免费机场
-    icon: https://img.nloln.de/v2/QXIzd1p.png
-    include-all: true
-    filter: (?i)免费机场
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: 自建节点
-    icon: https://img4.nloln.cn/file/1733468555614_cf.ico
-    include-all: true
-    filter: (?i)橙子自建|💦|LegendVPS
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: L站分享
-    icon: https://img.nloln.de/v2/EtU1ssS.png
-    include-all: true
-    filter: (?i)L站
     type: url-test
     interval: 300
     tolerance: 50
@@ -92,14 +36,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -114,14 +51,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -136,14 +66,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -158,14 +81,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 奈飞节点
       - 狮城节点
       - 香港节点
@@ -180,15 +96,8 @@ proxy-groups:
     type: select
     proxies:
       - 台湾节点
-      - 全球通
-      - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 节点选择
+      - 弟弟
       - 手动切换
       - DIRECT
   - name: 哔哩哔哩
@@ -196,14 +105,7 @@ proxy-groups:
     type: select
     proxies:
       - 全球直连
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 台湾节点
       - 香港节点
   - name: 国外媒体
@@ -212,14 +114,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -233,14 +128,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -252,14 +140,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -273,14 +154,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -294,14 +168,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -315,14 +182,7 @@ proxy-groups:
     proxies:
       - 节点选择
       - DIRECT
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -336,14 +196,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -357,14 +210,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 美国节点
       - 香港节点
       - 台湾节点
@@ -388,35 +234,6 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自动选择
-  - name: 自用直连
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png
-    type: select
-    proxies:
-      - DIRECT
-      - 节点选择
-      - 自动选择
-  - name: 自用代理
-    icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
-    type: select
-    proxies:
-      - 自动选择
-      - 手动切换
-      - 节点选择
-      - 全球通
-      - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
-      - DIRECT
   - name: 广告拦截
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
@@ -436,14 +253,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - DIRECT
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -506,14 +316,7 @@ proxy-groups:
       - 节点选择
       - 手动切换
       - 自动选择
-      - 全球通
       - 弟弟
-      - 自建优选
-      - LinuxDo优选
-      - 公开订阅优选
-      - 免费机场
-      - 自建节点
-      - L站分享
       - 电报消息
       - OpenAi
       - 油管视频
@@ -530,8 +333,6 @@ proxy-groups:
       - 游戏平台
       - 网易音乐
       - 全球直连
-      - 自用直连
-      - 自用代理
       - 广告拦截
       - 应用净化
       - 漏网之鱼
@@ -754,20 +555,6 @@ rule-providers:
     interval: 86400
     format: text
     type: http
-  PersonalDirect:
-    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalDirect.list
-    path: ./ruleset/PersonalDirect.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  PersonalProxy:
-    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalProxy.list
-    path: ./ruleset/PersonalProxy.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
@@ -800,7 +587,5 @@ rules:
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
-  - "RULE-SET,PersonalDirect,自用直连"
-  - "RULE-SET,PersonalProxy,自用代理"
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
