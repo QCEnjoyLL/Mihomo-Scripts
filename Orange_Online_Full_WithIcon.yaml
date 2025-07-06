@@ -7,6 +7,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -33,6 +34,13 @@ proxy-groups:
     icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
     include-all: true
     filter: (?i)全球通
+    type: url-test
+    interval: 300
+    tolerance: 50
+  - name: LegendVps
+    icon: https://img.nloln.de/v2/g5gZPpZ.png
+    include-all: true
+    filter: (?i)LegendVps
     type: url-test
     interval: 300
     tolerance: 50
@@ -87,6 +95,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -108,6 +117,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -129,6 +139,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -150,6 +161,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -171,6 +183,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -186,6 +199,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -201,6 +215,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -221,6 +236,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -239,6 +255,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -259,6 +276,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -279,6 +297,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -299,6 +318,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -319,6 +339,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -339,6 +360,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -383,6 +405,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -416,6 +439,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
@@ -485,6 +509,7 @@ proxy-groups:
       - 全球通
       - 弟弟
       - 自建优选
+      - LegendVps
       - LinuxDo优选
       - 公开订阅优选
       - 免费机场
