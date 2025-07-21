@@ -4,12 +4,12 @@ proxy-groups:
     type: select
     proxies:
       - 自动选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -30,10 +30,10 @@ proxy-groups:
     include-all: true
     interval: 300
     tolerance: 50
-  - name: 全球通
+  - name: 自费节点
     icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
     include-all: true
-    filter: (?i)全球通
+    filter: (?i)全球通|69云
     type: url-test
     interval: 300
     tolerance: 50
@@ -44,7 +44,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 弟弟
+  - name: 弟弟节点
     icon: https://img.nloln.de/v2/KInGYFD.png
     include-all: true
     filter: (?i)弟弟
@@ -58,14 +58,14 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: LinuxDo优选
+  - name: L站优选
     icon: https://img.nloln.de/v2/k30YstZ.jpeg
     include-all: true
     filter: (?i)LinuxDo
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 公开订阅优选
+  - name: 公开优选
     icon: https://img.nloln.de/v2/RLJHkMT.jpeg
     include-all: true
     filter: (?i)公开订阅
@@ -75,7 +75,7 @@ proxy-groups:
   - name: 免费机场
     icon: https://img.nloln.de/v2/QXIzd1p.png
     include-all: true
-    filter: (?i)免费机场
+    filter: (?i)免费机场|白嫖
     type: url-test
     interval: 300
     tolerance: 50
@@ -92,12 +92,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -114,12 +114,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -136,12 +136,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -158,12 +158,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 奈飞节点
@@ -180,12 +180,12 @@ proxy-groups:
     type: select
     proxies:
       - 台湾节点
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 节点选择
@@ -196,12 +196,12 @@ proxy-groups:
     type: select
     proxies:
       - 全球直连
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 台湾节点
@@ -212,12 +212,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - 自动选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -233,12 +233,12 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -252,12 +252,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -273,12 +273,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -294,12 +294,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -315,12 +315,12 @@ proxy-groups:
     proxies:
       - 节点选择
       - DIRECT
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -336,12 +336,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -357,12 +357,12 @@ proxy-groups:
     proxies:
       - DIRECT
       - 节点选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -402,12 +402,12 @@ proxy-groups:
       - 自动选择
       - 手动切换
       - 节点选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -436,12 +436,12 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - DIRECT
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -506,12 +506,12 @@ proxy-groups:
       - 节点选择
       - 手动切换
       - 自动选择
-      - 全球通
-      - 弟弟
+      - 自费节点
+      - 弟弟节点
       - 自建优选
       - LegendVps
-      - LinuxDo优选
-      - 公开订阅优选
+      - L站优选
+      - 公开优选
       - 免费机场
       - 自建节点
       - 电报消息
