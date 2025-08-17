@@ -29,7 +29,7 @@ proxy-groups:
   - name: 付费节点
     icon: https://img.nloln.de/v2/t8jJFtK.png
     include-all: true
-    filter: (?i)三毛
+    filter: (?i)三毛|全球通
     type: url-test
     interval: 300
     tolerance: 50
