@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,deno.com
 DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,crond.dev
+DOMAIN-SUFFIX,yecaoyun.com
 
 #关键词匹配
 DOMAIN-KEYWORD,gay-torrents
@@ -31,6 +32,7 @@ DOMAIN-KEYWORD,gay-torrents.org
 DOMAIN-KEYWORD,torrentleech.cc
 DOMAIN-KEYWORD,linux.do
 DOMAIN-KEYWORD,deno
+DOMAIN-KEYWORD,yecaoyun
 
 #域名匹配
 DOMAIN,image-cdn.gay-torrents.net
@@ -38,6 +40,7 @@ DOMAIN,ipw.cn
 DOMAIN,www.torrentleech.cc
 DOMAIN,pt.soulvoice.club
 DOMAIN,linux.do
+DOMAIN,www.vyecaoyun.com
 
 #steam直连下载
 DOMAIN-SUFFIX,steamcontent.com
