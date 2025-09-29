@@ -33,7 +33,7 @@ proxy-groups:
   - name: 自费节点
     icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
     include-all: true
-    filter: (?i)全球通|69云
+    filter: (?i)全球通|69云|三毛
     type: url-test
     interval: 300
     tolerance: 50
