@@ -73,7 +73,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 免费机场
-    icon: https://img.nloln.de/v2/QXIzd1p.png
+    icon: https://img.nloln.de/v2/su2Ol74.png
     include-all: true
     filter: (?i)免费机场|白嫖
     type: url-test
