@@ -6,10 +6,8 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -51,24 +49,10 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 自建优选
+  - name: 优选合集
     icon: https://img.nloln.de/v2/YzX3R1V.jpeg
     include-all: true
-    filter: (?i)自建优选
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: L站优选
-    icon: https://img.nloln.de/v2/k30YstZ.jpeg
-    include-all: true
-    filter: (?i)LinuxDo
-    type: url-test
-    interval: 300
-    tolerance: 50
-  - name: 公开优选
-    icon: https://img.nloln.de/v2/RLJHkMT.jpeg
-    include-all: true
-    filter: (?i)公开订阅
+    filter: (?i)优选
     type: url-test
     interval: 300
     tolerance: 50
@@ -94,10 +78,8 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -116,10 +98,8 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -138,10 +118,8 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -160,10 +138,8 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 奈飞节点
@@ -182,10 +158,8 @@ proxy-groups:
       - 台湾节点
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 节点选择
@@ -198,10 +172,8 @@ proxy-groups:
       - 全球直连
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 台湾节点
@@ -214,10 +186,8 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -235,10 +205,8 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -254,10 +222,8 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -275,10 +241,8 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -296,10 +260,8 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -317,10 +279,8 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -338,10 +298,8 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -359,10 +317,8 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -404,10 +360,8 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 美国节点
@@ -438,10 +392,8 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 香港节点
@@ -508,10 +460,8 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 自建优选
+      - 优选合集
       - LegendVps
-      - L站优选
-      - 公开优选
       - 免费机场
       - 自建节点
       - 电报消息
