@@ -1,13 +1,16 @@
 #后缀匹配
 DOMAIN-SUFFIX,xunleix.com
 DOMAIN-SUFFIX,kelu.one
+DOMAIN-SUFFIX,linux.do
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
 DOMAIN-KEYWORD,xunleix
 DOMAIN-KEYWORD,kelu.one
 DOMAIN-KEYWORD,kelu
+DOMAIN-KEYWORD,linux.do
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
 DOMAIN,our.kelu.one
+DOMAIN,linux.do
