@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,xunleix.com
 DOMAIN-SUFFIX,kelu.one
 DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,aiyifan.tv
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
@@ -9,8 +10,10 @@ DOMAIN-KEYWORD,xunleix
 DOMAIN-KEYWORD,kelu.one
 DOMAIN-KEYWORD,kelu
 DOMAIN-KEYWORD,linux.do
+DOMAIN-KEYWORD,aiyifan.tv
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
 DOMAIN,our.kelu.one
 DOMAIN,linux.do
+DOMAIN,aiyifan.tv
