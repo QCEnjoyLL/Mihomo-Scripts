@@ -29,7 +29,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 自费节点
-    icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
+    icon: https://img.nloln.de/v2/nasnRtp.png
     include-all: true
     filter: (?i)全球通|69云|三毛
     type: url-test
@@ -352,7 +352,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
   - name: 自用代理
-    icon: https://fz4nwr48x.loinkend1.com/images/ico/ico.png
+    icon: https://img.nloln.de/v2/nDZOowa.png
     type: select
     proxies:
       - 自动选择
