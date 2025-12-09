@@ -2,6 +2,7 @@
 DOMAIN-SUFFIX,xunleix.com
 DOMAIN-SUFFIX,kelu.one
 DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,idcflare.com
 DOMAIN-SUFFIX,aiyifan.tv
 DOMAIN-SUFFIX,weyolo.com
 
@@ -11,6 +12,7 @@ DOMAIN-KEYWORD,xunleix
 DOMAIN-KEYWORD,kelu.one
 DOMAIN-KEYWORD,kelu
 DOMAIN-KEYWORD,linux.do
+DOMAIN-KEYWORD,idcflare.com
 DOMAIN-KEYWORD,aiyifan.tv
 DOMAIN-KEYWORD,weyolo.com
 
@@ -18,5 +20,6 @@ DOMAIN-KEYWORD,weyolo.com
 DOMAIN,xluser-ssl.xunleix.com
 DOMAIN,our.kelu.one
 DOMAIN,linux.do
+DOMAIN,idcflare.com
 DOMAIN,aiyifan.tv
 DOMAIN,chanel.weyolo.com
