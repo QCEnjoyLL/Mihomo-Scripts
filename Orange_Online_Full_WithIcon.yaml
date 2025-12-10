@@ -6,7 +6,6 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -49,13 +48,6 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 优选合集
-    icon: https://img.nloln.de/v2/YzX3R1V.jpeg
-    include-all: true
-    filter: (?i)优选
-    type: url-test
-    interval: 300
-    tolerance: 50
   - name: 免费机场
     icon: https://img.nloln.de/v2/su2Ol74.png
     include-all: true
@@ -78,7 +70,6 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -98,7 +89,6 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -118,7 +108,6 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -138,7 +127,6 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -158,7 +146,6 @@ proxy-groups:
       - 台湾节点
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -172,7 +159,6 @@ proxy-groups:
       - 全球直连
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -186,7 +172,6 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -205,7 +190,6 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -222,7 +206,6 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -241,7 +224,6 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -260,7 +242,6 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -279,7 +260,6 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -298,7 +278,6 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -317,7 +296,6 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -360,7 +338,6 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -392,7 +369,6 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
@@ -460,7 +436,6 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - 优选合集
       - LegendVps
       - 免费机场
       - 自建节点
