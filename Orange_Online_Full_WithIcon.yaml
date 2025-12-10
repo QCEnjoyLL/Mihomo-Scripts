@@ -66,7 +66,7 @@ proxy-groups:
   - name: 自建节点
     icon: https://img4.nloln.cn/file/1733468555614_cf.ico
     include-all: true
-    filter: (?i)橙子自建|💦|LegendVPS
+    filter: (?i)橙子自建
     type: url-test
     interval: 300
     tolerance: 50
