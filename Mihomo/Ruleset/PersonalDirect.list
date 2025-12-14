@@ -13,7 +13,7 @@ DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,virmach.com
 DOMAIN-SUFFIX,torrentleech.cc
-# DOMAIN-SUFFIX,linux.do
+DOMAIN-SUFFIX,fnos.net
 DOMAIN-SUFFIX,deno.com
 DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,crond.dev
@@ -30,7 +30,7 @@ DOMAIN-KEYWORD,tracker.m-team.cc
 DOMAIN-KEYWORD,virmach.com
 DOMAIN-KEYWORD,gay-torrents.org
 DOMAIN-KEYWORD,torrentleech.cc
-# DOMAIN-KEYWORD,linux.do
+DOMAIN-KEYWORD,fnos.net
 DOMAIN-KEYWORD,deno
 DOMAIN-KEYWORD,yecaoyun
 
@@ -39,7 +39,7 @@ DOMAIN,image-cdn.gay-torrents.net
 DOMAIN,ipw.cn
 DOMAIN,www.torrentleech.cc
 DOMAIN,pt.soulvoice.club
-# DOMAIN,linux.do
+DOMAIN,fnos.net
 DOMAIN,www.vyecaoyun.com
 
 #steam直连下载
