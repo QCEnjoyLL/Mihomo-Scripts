@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,idcflare.com
 DOMAIN-SUFFIX,aiyifan.tv
 DOMAIN-SUFFIX,weyolo.com
+DOMAIN-SUFFIX,nightalks.com
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
@@ -15,6 +16,7 @@ DOMAIN-KEYWORD,linux.do
 DOMAIN-KEYWORD,idcflare.com
 DOMAIN-KEYWORD,aiyifan.tv
 DOMAIN-KEYWORD,weyolo.com
+DOMAIN-KEYWORD,nightalks.com
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
@@ -23,3 +25,4 @@ DOMAIN,linux.do
 DOMAIN,idcflare.com
 DOMAIN,aiyifan.tv
 DOMAIN,chanel.weyolo.com
+DOMAIN,nightalks.com
