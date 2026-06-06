@@ -6,7 +6,7 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 香港节点
@@ -34,10 +34,10 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: LegendVps
-    icon: https://img.nloln.de/v2/g5gZPpZ.png
+  - name: 自用下载
+    icon: https://img.nloln.de/v2/cyTLeT5.png
     include-all: true
-    filter: (?i)LegendVps
+    filter: (?i)三毛
     type: url-test
     interval: 300
     tolerance: 50
@@ -70,7 +70,7 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -89,7 +89,7 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -108,7 +108,7 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 狮城节点
@@ -127,7 +127,7 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 奈飞节点
@@ -146,7 +146,7 @@ proxy-groups:
       - 台湾节点
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 节点选择
@@ -159,7 +159,7 @@ proxy-groups:
       - 全球直连
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 台湾节点
@@ -172,7 +172,7 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 香港节点
@@ -190,7 +190,7 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 香港节点
@@ -206,7 +206,7 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 美国节点
@@ -224,7 +224,7 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 美国节点
@@ -242,7 +242,7 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 美国节点
@@ -260,7 +260,7 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 美国节点
@@ -278,7 +278,7 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 美国节点
@@ -296,7 +296,7 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 美国节点
@@ -338,7 +338,7 @@ proxy-groups:
       - 节点选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 美国节点
@@ -369,7 +369,7 @@ proxy-groups:
       - DIRECT
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 香港节点
@@ -436,7 +436,7 @@ proxy-groups:
       - 自动选择
       - 自费节点
       - 弟弟节点
-      - LegendVps
+      - 自用下载
       - 免费机场
       - 自建节点
       - 电报消息
@@ -457,6 +457,7 @@ proxy-groups:
       - 全球直连
       - 自用直连
       - 自用代理
+      - 自用下载
       - 广告拦截
       - 应用净化
       - 漏网之鱼
@@ -693,6 +694,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  PersonalDownload:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/PersonalDownload.list
+    path: ./ruleset/PersonalDownload.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 rules:
   - "RULE-SET,LocalAreaNetwork,全球直连"
@@ -727,5 +735,6 @@ rules:
   - "RULE-SET,Download,全球直连"
   - "RULE-SET,PersonalDirect,自用直连"
   - "RULE-SET,PersonalProxy,自用代理"
+  - "RULE-SET,PersonalDownload,自用下载"
   - "GEOIP,CN,全球直连"
   - "MATCH,漏网之鱼"
