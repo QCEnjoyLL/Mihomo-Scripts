@@ -1,23 +1,11 @@
 #后缀匹配
-DOMAIN-SUFFIX,playvids.com
-DOMAIN-SUFFIX,userscontent.net
-DOMAIN-SUFFIX,peekvids.com
-DOMAIN-SUFFIX,cmcrecon.com
 DOMAIN-SUFFIX,boyfriendtv.com
 DOMAIN-SUFFIX,www.boyfriendtv.com
 
 #关键词匹配
-DOMAIN-KEYWORD,playvids.com
-DOMAIN-KEYWORD,userscontent.net
-DOMAIN-KEYWORD,peekvids.com
-DOMAIN-KEYWORD,cmcrecon.com
 DOMAIN-KEYWORD,boyfriendtv.com
 DOMAIN-KEYWORD,www.boyfriendtv.com
 
 #域名匹配
-DOMAIN,playvids.com
-DOMAIN,userscontent.net
-DOMAIN,peekvids.com
-DOMAIN,cmcrecon.com
 DOMAIN,boyfriendtv.com
 DOMAIN,www.boyfriendtv.com
