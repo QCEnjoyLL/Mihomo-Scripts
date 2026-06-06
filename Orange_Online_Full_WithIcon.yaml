@@ -35,7 +35,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 自用下载
-    icon: https://img.nloln.de/v2/cyTLeT5.png
+    icon: https://img.nloln.de/v2/iI076Cp.png
     include-all: true
     filter: (?i)三毛
     type: url-test
