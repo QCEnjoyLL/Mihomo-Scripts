@@ -78,3 +78,8 @@ IP-CIDR,205.185.194.0/24,no-resolve
 
 #游戏直连
 IP-CIDR,182.44.15.0/24,no-resolve
+
+#radmin直连
+IP-CIDR,26.217.95.199,no-resolve
+IP-CIDR,26.229.151.101,no-resolve
+IP-CIDR,26.56.43.28,no-resolve
