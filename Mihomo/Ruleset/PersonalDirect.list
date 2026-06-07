@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,deno.com
 DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,crond.dev
 DOMAIN-SUFFIX,yecaoyun.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
 
 #关键词匹配
 DOMAIN-KEYWORD,gay-torrents
@@ -33,6 +34,7 @@ DOMAIN-KEYWORD,torrentleech.cc
 DOMAIN-KEYWORD,fnos.net
 DOMAIN-KEYWORD,deno
 DOMAIN-KEYWORD,yecaoyun
+DOMAIN-KEYWORD,challenges.cloudflare.com
 
 #域名匹配
 DOMAIN,image-cdn.gay-torrents.net
@@ -41,6 +43,7 @@ DOMAIN,www.torrentleech.cc
 DOMAIN,pt.soulvoice.club
 DOMAIN,fnos.net
 DOMAIN,www.vyecaoyun.com
+DOMAIN,challenges.cloudflare.com
 
 #steam直连下载
 DOMAIN-SUFFIX,steamcontent.com
