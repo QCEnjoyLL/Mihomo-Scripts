@@ -12,6 +12,7 @@ DOMAIN-SUFFIX,userscontent.net
 DOMAIN-SUFFIX,peekvids.com
 DOMAIN-SUFFIX,cmcrecon.com
 DOMAIN-SUFFIX,ahcdn.com
+DOMAIN-SUFFIX,anyrouter.top
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
@@ -29,6 +30,7 @@ DOMAIN-KEYWORD,userscontent.net
 DOMAIN-KEYWORD,peekvids.com
 DOMAIN-KEYWORD,cmcrecon.com
 DOMAIN-KEYWORD,ahcdn.com
+DOMAIN-KEYWORD,anyrouter.top
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
@@ -44,6 +46,7 @@ DOMAIN,userscontent.net
 DOMAIN,peekvids.com
 DOMAIN,cmcrecon.com
 DOMAIN,ahcdn.com
+DOMAIN,anyrouter.top
 
 #IP匹配
 IP-CIDR,192.3.47.80/24
