@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,cmcrecon.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,anyrouter.top
 DOMAIN-SUFFIX,69yun69.com
+DOMAIN-SUFFIX,raw.githubusercontent.com
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
@@ -33,6 +34,7 @@ DOMAIN-KEYWORD,cmcrecon.com
 DOMAIN-KEYWORD,ahcdn.com
 DOMAIN-KEYWORD,anyrouter.top
 DOMAIN-KEYWORD,69yun69.com
+DOMAIN-KEYWORD,raw.githubusercontent.com
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
@@ -50,6 +52,7 @@ DOMAIN,cmcrecon.com
 DOMAIN,ahcdn.com
 DOMAIN,anyrouter.top
 DOMAIN,69yun69.com
+DOMAIN,raw.githubusercontent.com
 
 #IP匹配
 IP-CIDR,192.3.47.80/24
