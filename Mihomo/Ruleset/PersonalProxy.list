@@ -15,6 +15,7 @@ DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,anyrouter.top
 DOMAIN-SUFFIX,69yun69.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,save.tube
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
@@ -35,6 +36,7 @@ DOMAIN-KEYWORD,ahcdn.com
 DOMAIN-KEYWORD,anyrouter.top
 DOMAIN-KEYWORD,69yun69.com
 DOMAIN-KEYWORD,raw.githubusercontent.com
+DOMAIN-KEYWORD,save.tube
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
@@ -53,6 +55,7 @@ DOMAIN,ahcdn.com
 DOMAIN,anyrouter.top
 DOMAIN,69yun69.com
 DOMAIN,raw.githubusercontent.com
+DOMAIN,s7.save.tube
 
 #IP匹配
 IP-CIDR,192.3.47.80/24
