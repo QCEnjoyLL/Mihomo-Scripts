@@ -16,6 +16,8 @@ DOMAIN-SUFFIX,anyrouter.top
 DOMAIN-SUFFIX,69yun69.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,save.tube
+DOMAIN-SUFFIX,三毛机场.com
+DOMAIN-SUFFIX,xn--ehqx7tcnnope.com
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
@@ -37,6 +39,8 @@ DOMAIN-KEYWORD,anyrouter.top
 DOMAIN-KEYWORD,69yun69.com
 DOMAIN-KEYWORD,raw.githubusercontent.com
 DOMAIN-KEYWORD,save.tube
+DOMAIN-KEYWORD,三毛机场.com
+DOMAIN-KEYWORD,xn--ehqx7tcnnope.com
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
