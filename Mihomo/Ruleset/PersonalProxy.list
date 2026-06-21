@@ -18,6 +18,7 @@ DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,save.tube
 DOMAIN-SUFFIX,三毛机场.com
 DOMAIN-SUFFIX,xn--ehqx7tcnnope.com
+DOMAIN-SUFFIX,hibitsoft.ir
 
 #关键词匹配
 DOMAIN-KEYWORD,xunleix.com
@@ -41,6 +42,7 @@ DOMAIN-KEYWORD,raw.githubusercontent.com
 DOMAIN-KEYWORD,save.tube
 DOMAIN-KEYWORD,三毛机场.com
 DOMAIN-KEYWORD,xn--ehqx7tcnnope.com
+DOMAIN-KEYWORD,hibitsoft.ir
 
 #域名匹配
 DOMAIN,xluser-ssl.xunleix.com
@@ -60,6 +62,7 @@ DOMAIN,anyrouter.top
 DOMAIN,69yun69.com
 DOMAIN,raw.githubusercontent.com
 DOMAIN,s7.save.tube
+DOMAIN,hibitsoft.ir
 
 #IP匹配
 IP-CIDR,192.3.47.80/24
