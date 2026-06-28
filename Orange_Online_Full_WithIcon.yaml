@@ -41,6 +41,13 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: AnyRouter
+    icon: https://img.nloln.de/v2/khsw04Q.png
+    include-all: true
+    filter: (?i)三毛|69
+    type: url-test
+    interval: 300
+    tolerance: 50
   - name: 弟弟节点
     icon: https://img.nloln.de/v2/KInGYFD.png
     include-all: true
@@ -358,6 +365,26 @@ proxy-groups:
       - 自费节点
       - 弟弟节点
       - 下载节点
+      - 免费节点
+      - 备用机场
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - DIRECT
+  - name: AnyRouter
+    icon: https://img.nloln.de/v2/IJeLKwi.png
+    type: select
+    proxies:
+      - 自动选择
+      - 手动切换
+      - 节点选择
+      - 自费节点
+      - 弟弟节点
+      - 下载节点
+      - AnyRouter
       - 免费节点
       - 备用机场
       - 美国节点
@@ -720,11 +747,19 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  AnyRouter:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/AnyRouter.list
+    path: ./ruleset/AnyRouter.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 rules:
   - "RULE-SET,PersonalDirect,自用直连"
   - "RULE-SET,PersonalProxy,自用代理"
   - "RULE-SET,PersonalDownload,自用下载"
+  - "RULE-SET,PersonalDownload,AnyRouter"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"

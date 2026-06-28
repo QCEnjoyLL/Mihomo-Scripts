@@ -1,0 +1,8 @@
+#后缀匹配
+DOMAIN-SUFFIX,anyrouter.top
+
+#关键词匹配
+DOMAIN-KEYWORD,anyrouter.top
+
+#域名匹配
+DOMAIN,anyrouter.top
