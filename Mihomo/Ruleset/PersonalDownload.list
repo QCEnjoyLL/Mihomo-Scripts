@@ -5,6 +5,7 @@ DOMAIN-SUFFIX,zh.boyfriend.show
 DOMAIN-SUFFIX,boyfriend.show
 DOMAIN-SUFFIX,media-hls.doppiocdn.org
 DOMAIN-SUFFIX,doppiocdn.com
+DOMAIN-SUFFIX,anyrouter.top
 
 #关键词匹配
 DOMAIN-KEYWORD,boyfriendtv.com
@@ -13,6 +14,7 @@ DOMAIN-KEYWORD,zh.boyfriend.show
 DOMAIN-KEYWORD,boyfriend.show
 DOMAIN-KEYWORD,media-hls.doppiocdn.org
 DOMAIN-KEYWORD,doppiocdn.com
+DOMAIN-KEYWORD,anyrouter.top
 
 #域名匹配
 DOMAIN,boyfriendtv.com
@@ -20,3 +22,4 @@ DOMAIN,www.boyfriendtv.com
 DOMAIN,zh.boyfriend.show
 DOMAIN,boyfriend.show
 DOMAIN,media-hls.doppiocdn.org
+DOMAIN,anyrouter.top
