@@ -391,7 +391,7 @@ proxy-groups:
       - 日本节点
       - 韩国节点
       - DIRECT
-  - name: Any节点
+  - name: AnyRouter
     icon: https://img.nloln.de/v2/IJeLKwi.png
     type: select
     proxies:
