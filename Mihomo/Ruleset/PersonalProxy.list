@@ -66,6 +66,7 @@ DOMAIN,hibitsoft.ir
 
 #IP匹配
 IP-CIDR,192.3.47.80/32,no-resolve
+IP-CIDR,107.150.1.35/32,no-resolve
 IP-CIDR,198.12.90.102/32,no-resolve
 IP-CIDR,96.44.179.222/32,no-resolve
 IP-CIDR6,2607:9d00:2000:11::73b6:b178/128,no-resolve
