@@ -1,23 +1,11 @@
-#后缀匹配
+# 视频/下载站
 DOMAIN-SUFFIX,boyfriendtv.com
-DOMAIN-SUFFIX,www.boyfriendtv.com
-DOMAIN-SUFFIX,zh.boyfriend.show
 DOMAIN-SUFFIX,boyfriend.show
+
+# 视频 CDN
 DOMAIN-SUFFIX,media-hls.doppiocdn.org
 DOMAIN-SUFFIX,doppiocdn.com
 
-#关键词匹配
-DOMAIN-KEYWORD,boyfriendtv.com
-DOMAIN-KEYWORD,www.boyfriendtv.com
-DOMAIN-KEYWORD,zh.boyfriend.show
-DOMAIN-KEYWORD,boyfriend.show
-DOMAIN-KEYWORD,media-hls.doppiocdn.org
-DOMAIN-KEYWORD,doppiocdn.com
-DOMAIN-KEYWORD,cloudflare
-
-#域名匹配
-DOMAIN,boyfriendtv.com
-DOMAIN,www.boyfriendtv.com
-DOMAIN,zh.boyfriend.show
-DOMAIN,boyfriend.show
-DOMAIN,media-hls.doppiocdn.org
+# Cloudflare 下载/测速
+# 如果只想匹配 speed.cloudflare.com，把下一行改成 DOMAIN,speed.cloudflare.com
+DOMAIN-SUFFIX,cloudflare.com

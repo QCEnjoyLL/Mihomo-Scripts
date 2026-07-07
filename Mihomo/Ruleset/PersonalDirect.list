@@ -1,60 +1,39 @@
-#后缀匹配
+# 测速/网络测试直连
 DOMAIN-SUFFIX,ooklaserver.net
-DOMAIN-SUFFIX,speed.cloudflare.com
 DOMAIN-SUFFIX,speed.dler.io
 DOMAIN-SUFFIX,speedtest.cn
+DOMAIN,ipw.cn
+
+# PT/下载站直连
 DOMAIN-SUFFIX,gay-torrents.net
 DOMAIN-SUFFIX,gay-torrents.org
+DOMAIN-SUFFIX,gaytor.rent
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,torrentleech.cc
+DOMAIN,pt.soulvoice.club
+
+# 常用站点直连
 DOMAIN-SUFFIX,nloln.cn
 DOMAIN-SUFFIX,nerocats.com
-DOMAIN-SUFFIX,gaytor.rent
 DOMAIN-SUFFIX,115.com
 DOMAIN-SUFFIX,imgur.com
-DOMAIN-SUFFIX,m-team.cc
 DOMAIN-SUFFIX,virmach.com
-DOMAIN-SUFFIX,torrentleech.cc
 DOMAIN-SUFFIX,fnos.net
+DOMAIN-SUFFIX,yecaoyun.com
+
+# Deno/开发服务直连
 DOMAIN-SUFFIX,deno.com
 DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,crond.dev
-DOMAIN-SUFFIX,yecaoyun.com
-DOMAIN-SUFFIX,challenges.cloudflare.com
 
-#关键词匹配
-DOMAIN-KEYWORD,gay-torrents
-DOMAIN-KEYWORD,speedtest
-DOMAIN-KEYWORD,nloln
-DOMAIN-KEYWORD,gaytor
-DOMAIN-KEYWORD,115.com
-DOMAIN-KEYWORD,115
-DOMAIN-KEYWORD,tracker.m-team.cc
-DOMAIN-KEYWORD,virmach.com
-DOMAIN-KEYWORD,gay-torrents.org
-DOMAIN-KEYWORD,torrentleech.cc
-DOMAIN-KEYWORD,fnos.net
-DOMAIN-KEYWORD,deno
-DOMAIN-KEYWORD,yecaoyun
-DOMAIN-KEYWORD,challenges.cloudflare.com
-
-#域名匹配
-DOMAIN,image-cdn.gay-torrents.net
-DOMAIN,ipw.cn
-DOMAIN,www.torrentleech.cc
-DOMAIN,pt.soulvoice.club
-DOMAIN,fnos.net
-DOMAIN,www.vyecaoyun.com
-DOMAIN,challenges.cloudflare.com
-
-#steam直连下载
+# Steam 下载直连
 DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-KEYWORD,steamcontent.com
-DOMAIN,fastly.cdn.steampipe.steamcontent.com
-DOMAIN,cdn.fastly.steamstatic.com
-DOMAIN-KEYWORD,fastly.steamstatic.com
 DOMAIN-SUFFIX,fastly.steamstatic.com
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN-SUFFIX,cm.steampowered.com
 DOMAIN-SUFFIX,steamserver.net
+
+# Steam 下载 IP 直连
 IP-CIDR,45.121.184.0/24,no-resolve
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
@@ -79,10 +58,10 @@ IP-CIDR,208.64.200.0/22,no-resolve
 IP-CIDR,208.78.164.0/22,no-resolve
 IP-CIDR,205.185.194.0/24,no-resolve
 
-#游戏直连
+# 游戏直连
 IP-CIDR,182.44.15.0/24,no-resolve
 
-#radmin直连
+# Radmin 直连
 IP-CIDR,26.217.95.199/32,no-resolve
 IP-CIDR,26.229.151.101/32,no-resolve
 IP-CIDR,26.56.43.28/32,no-resolve

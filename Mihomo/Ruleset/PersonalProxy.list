@@ -1,4 +1,4 @@
-#后缀匹配
+# 代理站点
 DOMAIN-SUFFIX,xunleix.com
 DOMAIN-SUFFIX,kelu.one
 DOMAIN-SUFFIX,linux.do
@@ -13,55 +13,16 @@ DOMAIN-SUFFIX,peekvids.com
 DOMAIN-SUFFIX,cmcrecon.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,69yun69.com
-DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,save.tube
-DOMAIN-SUFFIX,三毛机场.com
-DOMAIN-SUFFIX,xn--ehqx7tcnnope.com
 DOMAIN-SUFFIX,hibitsoft.ir
 
-#关键词匹配
-DOMAIN-KEYWORD,xunleix.com
-DOMAIN-KEYWORD,xunleix
-DOMAIN-KEYWORD,kelu.one
-DOMAIN-KEYWORD,kelu
-DOMAIN-KEYWORD,linux.do
-DOMAIN-KEYWORD,idcflare.com
-DOMAIN-KEYWORD,aiyifan.tv
-DOMAIN-KEYWORD,weyolo.com
-DOMAIN-KEYWORD,nightalks.com
-DOMAIN-KEYWORD,playvids.com
-DOMAIN-KEYWORD,x.fentao.net
-DOMAIN-KEYWORD,userscontent.net
-DOMAIN-KEYWORD,peekvids.com
-DOMAIN-KEYWORD,cmcrecon.com
-DOMAIN-KEYWORD,ahcdn.com
-DOMAIN-KEYWORD,69yun69.com
-DOMAIN-KEYWORD,raw.githubusercontent.com
-DOMAIN-KEYWORD,save.tube
-DOMAIN-KEYWORD,三毛机场.com
-DOMAIN-KEYWORD,xn--ehqx7tcnnope.com
-DOMAIN-KEYWORD,hibitsoft.ir
-
-#域名匹配
-DOMAIN,xluser-ssl.xunleix.com
-DOMAIN,our.kelu.one
-DOMAIN,linux.do
-DOMAIN,idcflare.com
-DOMAIN,aiyifan.tv
-DOMAIN,chanel.weyolo.com
-DOMAIN,nightalks.com
-DOMAIN,playvids.com
-DOMAIN,x.fentao.net
-DOMAIN,userscontent.net
-DOMAIN,peekvids.com
-DOMAIN,cmcrecon.com
-DOMAIN,ahcdn.com
-DOMAIN,69yun69.com
+# GitHub 原始文件
 DOMAIN,raw.githubusercontent.com
-DOMAIN,s7.save.tube
-DOMAIN,hibitsoft.ir
 
-#IP匹配
+# 三毛机场，使用 Punycode 域名更稳
+DOMAIN-SUFFIX,xn--ehqx7tcnnope.com
+
+# IP 匹配
 IP-CIDR,107.150.1.35/32,no-resolve
 IP-CIDR,198.12.90.102/32,no-resolve
 IP-CIDR,96.44.179.222/32,no-resolve
