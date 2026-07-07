@@ -7,5 +7,5 @@ DOMAIN-SUFFIX,media-hls.doppiocdn.org
 DOMAIN-SUFFIX,doppiocdn.com
 
 # Cloudflare 下载/测速
-# 如果只想匹配 speed.cloudflare.com，把下一行改成 DOMAIN,speed.cloudflare.com
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-ech.com
