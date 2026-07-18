@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,imgur.com
 
 # GitHub 原始文件
 DOMAIN,raw.githubusercontent.com
+DOMAIN,release-assets.githubusercontent.com
 
 # 三毛机场，使用 Punycode 域名更稳
 DOMAIN-SUFFIX,xn--ehqx7tcnnope.com
