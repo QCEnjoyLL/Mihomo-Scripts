@@ -415,7 +415,7 @@ proxy-groups:
       - 日本节点
       - 韩国节点
       - DIRECT
-  - name: AnyRouter
+  - name: 自用Any
     icon: https://img.nloln.de/v2/IJeLKwi.png
     type: select
     proxies:
@@ -600,6 +600,13 @@ rule-providers:
   GoogleCN:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/GoogleCN.list
     path: ./ruleset/GoogleCN.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
+  GoogleAccount:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/GoogleAccount.list
+    path: ./ruleset/GoogleAccount.list
     behavior: classical
     interval: 86400
     format: text
@@ -805,13 +812,16 @@ rules:
   - "RULE-SET,PersonalDirect,自用直连"
   - "RULE-SET,PersonalProxy,自用代理"
   - "RULE-SET,PersonalDownload,自用下载"
-  - "RULE-SET,AnyRouter,AnyRouter"
+  - "RULE-SET,AnyRouter,自用Any"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
+  #- "RULE-SET,GoogleFCM,谷歌FCM"
+  #- "RULE-SET,GoogleCN,全球直连"
+  - "RULE-SET,GoogleAccount,谷歌FCM"
   - "RULE-SET,GoogleFCM,谷歌FCM"
-  - "RULE-SET,GoogleCN,全球直连"
+  - "RULE-SET,GoogleCN,谷歌FCM"
   - "RULE-SET,SteamCN,全球直连"
   - "RULE-SET,Bing,微软Bing"
   - "RULE-SET,OneDrive,微软云盘"

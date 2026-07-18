@@ -1,0 +1,231 @@
+# NAME: GoogleAccount
+# 用途: 固定 Google 账号与核心服务出口（策略组建议选固定地区节点）
+# 格式: classical / text  (配合 rule-providers behavior: classical)
+#
+# 使用建议:
+#   1. 规则顺序保持: GoogleFCM -> GoogleCN -> GoogleAccount（你现在的顺序即可）
+#   2. GoogleAccount 策略组固定某个地区（如 美国节点 / 狮城节点），不要用 url-test 乱跳
+#   3. 完整 YouTube 观看仍走后面的 油管视频；本列表只保留登录/账号相关必要域
+#   4. 若只想锁账号、不锁搜索/云，可删掉「主站与通用」和「IP 段」两节
+
+############################
+# 1) 账号 / 登录 / OAuth
+############################
+DOMAIN,accounts.google.com
+DOMAIN,accounts.youtube.com
+DOMAIN,myaccount.google.com
+DOMAIN,oauthaccountmanager.googleapis.com
+DOMAIN,oauth2.googleapis.com
+DOMAIN,android.clients.google.com
+DOMAIN,device-provisioning.googleapis.com
+DOMAIN,people-pa.googleapis.com
+DOMAIN,people.googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+
+############################
+# 2) Gmail / Chat / Meet
+############################
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN,mail.google.com
+DOMAIN,chatenabled.mail.google.com
+DOMAIN,mail-attachment.googleusercontent.com
+DOMAIN,chat.google.com
+DOMAIN,meet.google.com
+DOMAIN,hangouts.google.com
+DOMAIN,voice.google.com
+DOMAIN,contacts.google.com
+DOMAIN,calendar.google.com
+
+############################
+# 3) Drive / Docs / Workspace
+############################
+DOMAIN,drive.google.com
+DOMAIN,docs.google.com
+DOMAIN,sheets.google.com
+DOMAIN,slides.google.com
+DOMAIN,forms.google.com
+DOMAIN,script.google.com
+DOMAIN,sites.google.com
+DOMAIN,keep.google.com
+DOMAIN,classroom.google.com
+DOMAIN,admin.google.com
+DOMAIN,workspace.google.com
+DOMAIN,clients6.google.com
+DOMAIN,clients5.google.com
+DOMAIN,clients4.google.com
+DOMAIN,clients3.google.com
+DOMAIN,clients2.google.com
+DOMAIN,clients1.google.com
+DOMAIN,clients.l.google.com
+DOMAIN-SUFFIX,docs.google.com
+DOMAIN-SUFFIX,drive.google.com
+
+############################
+# 4) Play / 支付 / 家庭组 / One
+############################
+DOMAIN,play.google.com
+DOMAIN,play.googleapis.com
+DOMAIN,play-fe.googleapis.com
+DOMAIN,playatoms-pa.googleapis.com
+DOMAIN,android.googleapis.com
+DOMAIN,android.apis.google.com
+DOMAIN,pay.google.com
+DOMAIN,payments.google.com
+DOMAIN,wallet.google.com
+DOMAIN,one.google.com
+DOMAIN,families.google.com
+DOMAIN,family.google.com
+DOMAIN,store.google.com
+DOMAIN,fi.google.com
+
+############################
+# 5) Photos / Maps / Translate 等常用
+############################
+DOMAIN,photos.google.com
+DOMAIN,maps.google.com
+DOMAIN,maps.googleapis.com
+DOMAIN,maps.gstatic.com
+DOMAIN,earth.google.com
+DOMAIN,translate.google.com
+DOMAIN,translate.googleapis.com
+DOMAIN,books.google.com
+DOMAIN,scholar.google.com
+DOMAIN,news.google.com
+DOMAIN,podcasts.google.com
+
+############################
+# 6) Gemini / AI Studio（账号与地区相关）
+############################
+DOMAIN,gemini.google.com
+DOMAIN,bard.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,notebooklm.google.com
+DOMAIN,notebooklm.google
+DOMAIN,labs.google
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,aisandbox-pa.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+
+############################
+# 7) Cloud Console（可选，常跟账号绑定）
+############################
+DOMAIN,console.cloud.google.com
+DOMAIN,cloud.google.com
+DOMAIN,storage.googleapis.com
+DOMAIN,storage.cloud.google.com
+
+############################
+# 8) 静态资源 / API / 证书（登录页与接口依赖）
+############################
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,pki.goog
+DOMAIN,ssl.gstatic.com
+DOMAIN,www.gstatic.com
+DOMAIN,fonts.gstatic.com
+DOMAIN,fonts.googleapis.com
+DOMAIN,apis.google.com
+DOMAIN,ajax.googleapis.com
+DOMAIN,update.googleapis.com
+DOMAIN,safebrowsing.googleapis.com
+DOMAIN,safebrowsing.google.com
+DOMAIN,dl.google.com
+DOMAIN,tools.google.com
+DOMAIN,crl.pki.goog
+DOMAIN,ocsp.pki.goog
+
+############################
+# 9) 主站与常见地区域名（搜素/主页锁区）
+#    若只想锁账号，可整段删除
+############################
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,google.com.sg
+DOMAIN-SUFFIX,google.com.jp
+DOMAIN-SUFFIX,google.co.jp
+DOMAIN-SUFFIX,google.co.kr
+DOMAIN-SUFFIX,google.co.uk
+DOMAIN-SUFFIX,google.com.au
+DOMAIN-SUFFIX,google.de
+DOMAIN-SUFFIX,google.fr
+DOMAIN-SUFFIX,google.ca
+DOMAIN-SUFFIX,google.com.br
+DOMAIN-SUFFIX,google.co.in
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,goo.gle
+DOMAIN-SUFFIX,abc.xyz
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,blogger.com
+DOMAIN-SUFFIX,blogspot.com
+DOMAIN-SUFFIX,chrome.com
+DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,app-measurement.com
+DOMAIN-SUFFIX,app-measurement.net
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,page.link
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,web.app
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+
+############################
+# 10) 关键字兜底（范围较宽；可按需注释）
+############################
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,googleapis
+DOMAIN-KEYWORD,gstatic
+# DOMAIN-KEYWORD,google
+# 上面 google 关键字太宽，会匹配很多非账号流量；默认关闭
+
+############################
+# 11) YouTube 登录相关（可选）
+#     打开后，YouTube 也会跟 GoogleAccount 同出口
+#     若希望视频仍走「油管视频」，请保持注释
+############################
+# DOMAIN-SUFFIX,youtube.com
+# DOMAIN-SUFFIX,youtu.be
+# DOMAIN-SUFFIX,youtube-nocookie.com
+# DOMAIN-SUFFIX,ytimg.com
+# DOMAIN-SUFFIX,googlevideo.com
+# DOMAIN-SUFFIX,youtubei.googleapis.com
+# DOMAIN,accounts.youtube.com
+
+############################
+# 12) 常用 Google IP 段（域名失败时兜底；可选）
+#     大段 GCP IP 已避免写入，降低误伤
+############################
+IP-CIDR,8.8.8.0/24,no-resolve
+IP-CIDR,8.8.4.0/24,no-resolve
+IP-CIDR,64.233.160.0/19,no-resolve
+IP-CIDR,66.102.0.0/20,no-resolve
+IP-CIDR,66.249.64.0/19,no-resolve
+IP-CIDR,72.14.192.0/18,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,108.177.0.0/17,no-resolve
+IP-CIDR,142.250.0.0/15,no-resolve
+IP-CIDR,172.217.0.0/16,no-resolve
+IP-CIDR,172.253.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
+IP-CIDR,209.85.128.0/17,no-resolve
+IP-CIDR,216.58.192.0/19,no-resolve
+IP-CIDR,216.239.32.0/19,no-resolve
+IP-CIDR6,2001:4860::/32,no-resolve
+IP-CIDR6,2404:6800::/32,no-resolve
+IP-CIDR6,2607:f8b0::/32,no-resolve
+IP-CIDR6,2a00:1450::/32,no-resolve
