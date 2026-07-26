@@ -5,7 +5,7 @@ proxy-groups:
     proxies:
       - 自动选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -50,10 +50,10 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: 弟弟节点
-    icon: https://img.nloln.de/v2/KInGYFD.png
+  - name: Gihub节点
+    icon: https://img.nloln.de/v2/UswJ8vo.png
     include-all: true
-    filter: (?i)弟弟
+    filter: (?i)三毛|69|良心|赔钱|宝可梦
     type: url-test
     interval: 300
     tolerance: 50
@@ -85,7 +85,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -106,7 +106,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -127,7 +127,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -148,7 +148,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -169,7 +169,7 @@ proxy-groups:
     proxies:
       - 台湾节点
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -184,7 +184,7 @@ proxy-groups:
     proxies:
       - 全球直连
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -199,7 +199,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -219,7 +219,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -237,7 +237,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -257,7 +257,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -277,7 +277,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -297,7 +297,7 @@ proxy-groups:
       - 节点选择
       - DIRECT
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -317,7 +317,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -337,7 +337,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -381,7 +381,7 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -402,7 +402,7 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -423,7 +423,28 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
+      - 下载节点
+      - 免费节点
+      - Any节点
+      - 备用机场
+      - 无限流量
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - DIRECT
+  - name: GithubAPI
+    icon: https://img.nloln.de/v2/FOqJvL9.png
+    type: select
+    proxies:
+      - 自动选择
+      - 手动切换
+      - 节点选择
+      - 自费节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -456,7 +477,7 @@ proxy-groups:
       - 自动选择
       - DIRECT
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -525,7 +546,7 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 自费节点
-      - 弟弟节点
+      - Github节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -807,12 +828,20 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Github:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/Github.list
+    path: ./ruleset/Github.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 rules:
   - "RULE-SET,PersonalDirect,自用直连"
   - "RULE-SET,PersonalProxy,自用代理"
   - "RULE-SET,PersonalDownload,自用下载"
   - "RULE-SET,AnyRouter,自用Any"
+  - "RULE-SET,Github,GithubAPI"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
