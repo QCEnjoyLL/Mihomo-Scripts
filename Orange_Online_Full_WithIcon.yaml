@@ -50,7 +50,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: Gihub节点
+  - name: Github节点
     icon: https://img.nloln.de/v2/UswJ8vo.png
     include-all: true
     filter: (?i)三毛|69|良心|赔钱|宝可梦
