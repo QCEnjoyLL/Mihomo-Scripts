@@ -9,3 +9,14 @@ DOMAIN-SUFFIX,doppiocdn.com
 # Cloudflare 下载/测速
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare-ech.com
+
+# IP 匹配
+IP-CIDR,107.150.1.35/32,no-resolve
+IP-CIDR,198.12.90.102/32,no-resolve
+IP-CIDR,96.44.179.222/32,no-resolve
+IP-CIDR,168.138.101.164/32,no-resolve
+IP-CIDR,192.9.171.81/32,no-resolve
+IP-CIDR,131.186.57.191/32,no-resolve
+IP-CIDR,138.2.14.121/32,no-resolve
+IP-CIDR,192.255.216.167/32,no-resolve
+IP-CIDR,199.47.241.243/32,no-resolve

@@ -39,14 +39,14 @@ proxy-groups:
   - name: 下载节点
     icon: https://img.nloln.de/v2/iI076Cp.png
     include-all: true
-    filter: (?i)三毛|良心|赔钱|宝可梦
+    filter: (?i)三毛|良心|赔钱|无限流量
     type: url-test
     interval: 300
     tolerance: 50
   - name: Any节点
     icon: https://img.nloln.de/v2/khsw04Q.png
     include-all: true
-    filter: (?i)三毛|69|良心|赔钱|宝可梦
+    filter: (?i)三毛|69|无限流量
     type: url-test
     interval: 300
     tolerance: 50
