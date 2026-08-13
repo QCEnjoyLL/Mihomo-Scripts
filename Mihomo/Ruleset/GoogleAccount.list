@@ -207,7 +207,22 @@ DOMAIN-KEYWORD,gstatic
 # DOMAIN,accounts.youtube.com
 
 ############################
-# 12) 常用 Google IP 段（域名失败时兜底；可选）
+# 12) Google Antigravity / Antigravity 2.0 / IDE / CLI
+#     核心网页、Agent 后端、实验配置与官方更新链路
+#     googleapis.com / gvt1.com / storage.googleapis.com 虽已被上方规则覆盖，
+#     这里保留产品专用精确域名，便于独立维护与排障
+############################
+DOMAIN,antigravity.google
+DOMAIN,antigravity-stable.codeiumdata.com
+DOMAIN,antigravity-unleash.goog
+DOMAIN,daily-cloudcode-pa.googleapis.com
+DOMAIN,antigravity-ide-auto-updater-974169037036.us-central1.run.app
+DOMAIN,antigravity-cli-auto-updater-974169037036.us-central1.run.app
+DOMAIN,edgedl.me.gvt1.com
+DOMAIN,redirector.gvt1.com
+
+############################
+# 13) 常用 Google IP 段（域名失败时兜底；可选）
 #     大段 GCP IP 已避免写入，降低误伤
 ############################
 IP-CIDR,8.8.8.0/24,no-resolve
