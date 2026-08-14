@@ -25,6 +25,10 @@ DOMAIN-SUFFIX,deno.com
 DOMAIN-SUFFIX,deno.dev
 DOMAIN-SUFFIX,crond.dev
 
+# 115CDN
+DOMAIN-SUFFIX,cdnfhnfile.115cdn.net
+DOMAIN-SUFFIX,cpats01.115.com
+
 # Steam 下载直连
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,fastly.steamstatic.com
