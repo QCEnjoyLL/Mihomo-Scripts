@@ -5,7 +5,7 @@ proxy-groups:
     proxies:
       - 自动选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -39,7 +39,7 @@ proxy-groups:
   - name: 下载节点
     icon: https://img.nloln.de/v2/iI076Cp.png
     include-all: true
-    filter: (?i)三毛|无限流量|良心|赔钱
+    filter: (?i)三毛|无限|良心|赔钱
     type: url-test
     interval: 300
     tolerance: 50
@@ -50,7 +50,7 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
-  - name: Github节点
+  - name: Git节点
     icon: https://img.nloln.de/v2/UswJ8vo.png
     include-all: true
     filter: (?i)三毛|69
@@ -85,7 +85,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -106,7 +106,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -127,7 +127,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -148,7 +148,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -169,7 +169,7 @@ proxy-groups:
     proxies:
       - 台湾节点
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -184,7 +184,7 @@ proxy-groups:
     proxies:
       - 全球直连
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -199,7 +199,7 @@ proxy-groups:
       - 节点选择
       - 自动选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -219,7 +219,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -237,7 +237,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -257,7 +257,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -277,7 +277,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -297,7 +297,7 @@ proxy-groups:
       - 节点选择
       - DIRECT
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -317,7 +317,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -337,7 +337,7 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -381,7 +381,7 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -402,7 +402,7 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -423,7 +423,7 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -444,7 +444,7 @@ proxy-groups:
       - 手动切换
       - 节点选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -477,7 +477,7 @@ proxy-groups:
       - 自动选择
       - DIRECT
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
@@ -546,7 +546,7 @@ proxy-groups:
       - 手动切换
       - 自动选择
       - 自费节点
-      - Github节点
+      - Git节点
       - 下载节点
       - 免费节点
       - Any节点
