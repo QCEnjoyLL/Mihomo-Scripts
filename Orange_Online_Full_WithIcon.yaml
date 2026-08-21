@@ -60,7 +60,7 @@ proxy-groups:
   - name: 免费节点
     icon: https://img.nloln.de/v2/su2Ol74.png
     include-all: true
-    filter: (?i)免费|白嫖|风萧萧|冷门
+    filter: (?i)免费|白嫖|临时|冷门
     type: url-test
     interval: 300
     tolerance: 50
