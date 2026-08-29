@@ -78,6 +78,118 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 自用直连
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png
+    type: select
+    proxies:
+      - DIRECT
+      - 节点选择
+      - 自动选择
+  - name: 自用代理
+    icon: https://img.nloln.de/v2/nDZOowa.png
+    type: select
+    proxies:
+      - 自动选择
+      - 手动切换
+      - 节点选择
+      - 自费节点
+      - Git节点
+      - 下载节点
+      - 免费节点
+      - Any节点
+      - 备用机场
+      - 无限流量
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - DIRECT
+  - name: 自用下载
+    icon: https://img.nloln.de/v2/2YYEDL5.png
+    type: select
+    proxies:
+      - 自动选择
+      - 手动切换
+      - 节点选择
+      - 自费节点
+      - Git节点
+      - 下载节点
+      - 免费节点
+      - Any节点
+      - 备用机场
+      - 无限流量
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - DIRECT
+  - name: 自用Any
+    icon: https://img.nloln.de/v2/IJeLKwi.png
+    type: select
+    proxies:
+      - 自动选择
+      - 手动切换
+      - 节点选择
+      - 自费节点
+      - Git节点
+      - 下载节点
+      - 免费节点
+      - Any节点
+      - 备用机场
+      - 无限流量
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - DIRECT
+  - name: GithubAPI
+    icon: https://img.nloln.de/v2/FOqJvL9.png
+    type: select
+    proxies:
+      - 自动选择
+      - 手动切换
+      - 节点选择
+      - 自费节点
+      - Git节点
+      - 下载节点
+      - 免费节点
+      - Any节点
+      - 备用机场
+      - 无限流量
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - DIRECT
+  - name: 服务器
+    icon: https://img.nloln.de/v2/MprGt1W.png
+    type: select
+    proxies:
+      - 自动选择
+      - 手动切换
+      - 节点选择
+      - 自费节点
+      - Git节点
+      - 下载节点
+      - 免费节点
+      - Any节点
+      - 备用机场
+      - 无限流量
+      - 美国节点
+      - 香港节点
+      - 台湾节点
+      - 狮城节点
+      - 日本节点
+      - 韩国节点
+      - DIRECT
   - name: 电报消息
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
@@ -366,97 +478,6 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自动选择
-  - name: 自用直连
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png
-    type: select
-    proxies:
-      - DIRECT
-      - 节点选择
-      - 自动选择
-  - name: 自用代理
-    icon: https://img.nloln.de/v2/nDZOowa.png
-    type: select
-    proxies:
-      - 自动选择
-      - 手动切换
-      - 节点选择
-      - 自费节点
-      - Git节点
-      - 下载节点
-      - 免费节点
-      - Any节点
-      - 备用机场
-      - 无限流量
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
-      - DIRECT
-  - name: 自用下载
-    icon: https://img.nloln.de/v2/2YYEDL5.png
-    type: select
-    proxies:
-      - 自动选择
-      - 手动切换
-      - 节点选择
-      - 自费节点
-      - Git节点
-      - 下载节点
-      - 免费节点
-      - Any节点
-      - 备用机场
-      - 无限流量
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
-      - DIRECT
-  - name: 自用Any
-    icon: https://img.nloln.de/v2/IJeLKwi.png
-    type: select
-    proxies:
-      - 自动选择
-      - 手动切换
-      - 节点选择
-      - 自费节点
-      - Git节点
-      - 下载节点
-      - 免费节点
-      - Any节点
-      - 备用机场
-      - 无限流量
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
-      - DIRECT
-  - name: GithubAPI
-    icon: https://img.nloln.de/v2/FOqJvL9.png
-    type: select
-    proxies:
-      - 自动选择
-      - 手动切换
-      - 节点选择
-      - 自费节点
-      - Git节点
-      - 下载节点
-      - 免费节点
-      - Any节点
-      - 备用机场
-      - 无限流量
-      - 美国节点
-      - 香港节点
-      - 台湾节点
-      - 狮城节点
-      - 日本节点
-      - 韩国节点
-      - DIRECT
   - name: 广告拦截
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
@@ -835,6 +856,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  Server:
+    url: https://gh-proxy.nloln.cn/https://raw.githubusercontent.com/QCEnjoyLL/Mihomo-Scripts/master/Mihomo/Ruleset/Server.list
+    path: ./ruleset/Server.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 rules:
   - "RULE-SET,PersonalDirect,自用直连"
@@ -842,6 +870,7 @@ rules:
   - "RULE-SET,PersonalDownload,自用下载"
   - "RULE-SET,AnyRouter,自用Any"
   - "RULE-SET,Github,GithubAPI"
+  - "RULE-SET,Server,服务器"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
