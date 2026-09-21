@@ -128,7 +128,7 @@ proxy-groups:
       - 韩国节点
       - DIRECT
   - name: 自用Any
-    icon: https://img.nloln.de/v2/IJeLKwi.png
+    icon: https://piv.cc.cd/file/BQACAgUAAyEGAASLVN5eAAJvRmqxXf9txjKeVtp0BMH9m0V2f_60AALkIgACEd2RVRRewXkFg-5RPQQ.png
     type: select
     proxies:
       - 自动选择
@@ -170,7 +170,7 @@ proxy-groups:
       - 韩国节点
       - DIRECT
   - name: 服务器
-    icon: https://img.nloln.de/v2/MprGt1W.png
+    icon: https://piv.cc.cd/file/BQACAgUAAyEGAASLVN5eAAJvRWqxXZJuY-8baBY3Zpn_gxB26cJLAALiIgACEd2RVZ2juqCg51coPQQ.png
     type: select
     proxies:
       - 自动选择
