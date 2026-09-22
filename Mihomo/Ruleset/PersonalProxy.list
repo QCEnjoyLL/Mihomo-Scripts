@@ -24,3 +24,6 @@ DOMAIN,release-assets.githubusercontent.com
 
 # 三毛机场，使用 Punycode 域名更稳
 DOMAIN-SUFFIX,xn--ehqx7tcnnope.com
+
+# 69机场
+DOMAIN-SUFFIX,69yun69.com
