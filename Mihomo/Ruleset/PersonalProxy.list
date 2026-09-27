@@ -1,7 +1,6 @@
 # 代理站点
 DOMAIN-SUFFIX,xunleix.com
 DOMAIN-SUFFIX,kelu.one
-DOMAIN-SUFFIX,linux.do
 DOMAIN-SUFFIX,idcflare.com
 DOMAIN-SUFFIX,aiyifan.tv
 DOMAIN-SUFFIX,weyolo.com
@@ -18,6 +17,8 @@ DOMAIN-SUFFIX,hibitsoft.ir
 DOMAIN-SUFFIX,infinicloud.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imgbb.com
+
+# DOMAIN-SUFFIX,linux.do # 临时取消
 
 # GitHub 原始文件
 DOMAIN,raw.githubusercontent.com
