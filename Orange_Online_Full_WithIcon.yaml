@@ -107,7 +107,7 @@ proxy-groups:
       - 韩国节点
       - DIRECT
   - name: 自用下载
-    icon: https://img.nloln.de/v2/2YYEDL5.png
+    icon: https://piv.cc.cd/file/BQACAgUAAyEGAASLVN5eAAJ6Omr0ZsCwbhoEvg7CobQVnGxbbfLpAAJ_HwACZGWhV82aFimB-Tb9PQQ.png
     type: select
     proxies:
       - 自动选择
