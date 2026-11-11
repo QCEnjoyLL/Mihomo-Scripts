@@ -30,7 +30,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: 自费节点
-    icon: https://img.nloln.de/v2/nasnRtp.png
+    icon: https://tny.cc.cd/Ib1Dzg
     include-all: true
     filter: (?i)三毛|良心|赔钱
     type: url-test
@@ -44,7 +44,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
   - name: Any节点
-    icon: https://img.nloln.de/v2/khsw04Q.png
+    icon: https://tny.cc.cd/15k3PC
     include-all: true
     filter: (?i)三毛|69|良心|赔钱
     type: url-test
