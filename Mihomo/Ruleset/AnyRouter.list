@@ -1,3 +1,6 @@
 # AnyRouter 规则
 # 后缀匹配：匹配 anyrouter.top 及其所有子域名
 DOMAIN-SUFFIX,anyrouter.top
+
+# Muse
+DOMAIN-SUFFIX,muse.ai
