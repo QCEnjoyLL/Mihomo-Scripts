@@ -69,3 +69,6 @@ IP-CIDR,26.217.95.199/32,no-resolve
 IP-CIDR,26.229.151.101/32,no-resolve
 IP-CIDR,26.56.43.28/32,no-resolve
 IP-CIDR,26.204.114.124/32,no-resolve
+
+# 服务器直连
+IP-CIDR,185.99.135.48/32,no-resolve
